@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 450;
+    font-style: normal;
+}
+
+.main-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.title p {
+    color: #000000;
+    font-weight: 600;
+}    
+
+.torus-knot-audio-visualizer {
+    padding: 10px;
+    border-radius: 15px;
+    cursor:pointer;
+}
+
+.torus-knot-audio-visualizer p {
+    color: #636363;
+    font-weight: 400;
+}
+
+.torus-knot-audio-visualizer .torus-title {
+    font-weight: 600;
+}
+
+.torus-knot-audio-visualizer:hover {
+    background-color: #e3e3e3;
+}
+
+.home {
+    position: absolute;
+    top: 0;
+    display: flex;
+    padding-top: 25px;
+}
+
+.icon {
+    width: 25px;
+}
