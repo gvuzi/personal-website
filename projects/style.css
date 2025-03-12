@@ -33,22 +33,22 @@
     font-weight: 600;
 }    
 
-.torus-knot-audio-visualizer {
+.project {
     padding: 10px;
     border-radius: 15px;
     cursor:pointer;
 }
 
-.torus-knot-audio-visualizer p {
+.project p {
     color: #636363;
     font-weight: 400;
 }
 
-.torus-knot-audio-visualizer .torus-title {
+.project .project-title {
     font-weight: 600;
 }
 
-.torus-knot-audio-visualizer:hover {
+.project:hover {
     background-color: #e3e3e3;
 }
 
