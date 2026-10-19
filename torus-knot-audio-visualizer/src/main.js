@@ -137,7 +137,7 @@ function demoScene() {
     main_container.style.display = 'none';
     icons_container.style.display = 'none';
     main_menu_button.style.paddingTop = '5px';
-    audioLoader.load('/torus-knot-audio-visualizer/public/ginseng.mp3', function(buffer) {
+    audioLoader.load('/ginseng.mp3', function(buffer) {
         sound.setBuffer(buffer);
         volume = 1.25;
         sound.play();
