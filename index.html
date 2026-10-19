@@ -3,11 +3,69 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/public/favicon.svg" />
     <title>Gideon Callagan</title>
     <link rel="stylesheet" href="./style.css" />
   </head>
-  <body>
-    <div>
+  <body class="min-h-screen">
+    <div class="max-w-2xl mx-auto px-5 py-16 flex flex-col gap-10">
+        <div class="flex flex-col w-fit">
+            <span class="text-xl">gideon callagan</span>
+            <div class="flex gap-0.5 self-end items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5 text-black/50"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" /><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" /></svg>
+            <span class="text-sm text-black/50">austin, tx</span>
+            </div>
+        </div>
+
+        <span>building fast, polished software, from data pipelines to pixels. currently studying cs @ ut austin. 
+            <a class="underline underline-offset-2 decoration-black/50 hover:decoration-black transition-all duration-200" href="https://monkeytype.com/profile/gvuzi" target="_blank" rel="noopener noreferrer">top 0.1%</a> typist.
+        </span>
+
+        <div class="flex flex-col gap-5">
+            <span class="text-sm text-black/50">education</span>
+            <div class="flex flex-col gap-2">
+            <span>ms computer science <span class="text-black/50">at ut austin (2026-present, 4.0 gpa)</span></span>
+            <span>bs computer science <span class="text-black/50">at ut san antonio (2021-25, 3.98 gpa)</span></span>
+            </div>
+        </div>
+        
+        <div class="flex flex-col gap-5">
+            <span class="text-sm text-black/50">projects</span>
+
+            <div class="flex items-center gap-1">
+                <a class="font-lora  underline underline-offset-2 decoration-black/50 hover:decoration-black transition-all duration-200" href="https://rateutsa.com" target="_blank" rel="noopener noreferrer">rate<strong>utsa</strong></a>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-3.5 text-black/50"><path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" /></svg>
+            </div>
+            <span class="text-black/50">unified course and professor directory for utsa students. queries dual postgres search rpcs concurrently with query normalization and independent pagination for courses and faculty. features client-side weighted rating aggregations by review volume, chronological semester sorting, passwordless magic-link auth, and recent-view tracking.</span>
+
+            <div class="flex items-center gap-1">
+                <a class="underline underline-offset-2 decoration-black/50 hover:decoration-black transition-all duration-200" href="https://gideon.codes/torus-knot-audio-visualizer/" target="_blank" rel="noopener noreferrer">torus knot audio visualizer</a>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-3.5 text-black/50"><path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" /></svg>
+            </div>
+            <span class="text-black/50">real-time audio visualizer rendering a torus knot as a three.js particle system. web audio api frequency analysis drives per-particle color, with audio file upload and live volume control that reshapes the response.</span>
+        
+            <div class="flex items-center gap-1">
+                <a class="underline underline-offset-2 decoration-black/50 hover:decoration-black transition-all duration-200" href="https://github.com/gvuzi/dev-null" target="_blank" rel="noopener noreferrer">/dev/null</a>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-3.5 text-black/50"><path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" /></svg>
+            </div>
+            <span class="text-black/50">first-person shooter about building a startup and surviving software development. velocity-based projectile interception, raycast hit detection, and chasing and stationary ranged enemy ai. includes a hub world, scripted cutscenes and dialogue, baked lighting, post-processing, and custom blender models and animations.</span>
+
+            <div class="flex items-center gap-1">
+                <a class="underline underline-offset-2 decoration-black/50 hover:decoration-black transition-all duration-200" href="https://github.com/gvuzi/queueup" target="_blank" rel="noopener noreferrer">queueup</a>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-3.5 text-black/50"><path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" /></svg>
+            </div>
+            <span class="text-black/50">real-time collaborative music platform for android that synchronizes youtube playback across shared virtual rooms. built on a reactive firebase realtime database websocket tree with a drift-correction algorithm, dynamic dj role delegation, live room chat, and google sign-in via androidx credential manager.</span>
+        
+        </div>
+
+        <div class="flex flex-col gap-5">
+            <span class="text-sm text-black/50">contact</span>
+            <div class="flex gap-5">
+                <a class="underline underline-offset-2 decoration-black/50 hover:decoration-black transition-all duration-200" href="mailto:gideoncallagan@gmail.com">email</a>
+                <a class="underline underline-offset-2 decoration-black/50 hover:decoration-black transition-all duration-200" href="https://linkedin.com/in/gideoncallagan" target="_blank" rel="noopener noreferrer">linkedin</a>
+                <a class="underline underline-offset-2 decoration-black/50 hover:decoration-black transition-all duration-200" href="https://github.com/gvuzi" target="_blank" rel="noopener noreferrer">github</a>
+            </div>
+        </div>
     </div>
   </body>
 </html>
